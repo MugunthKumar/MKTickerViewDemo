@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB087CCC13B49C7F00521928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB087CCB13B49C7F00521928 /* UIKit.framework */; };
+		AB087CCE13B49C7F00521928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB087CCD13B49C7F00521928 /* Foundation.framework */; };
+		AB087CD013B49C7F00521928 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB087CCF13B49C7F00521928 /* CoreGraphics.framework */; };
+		AB087CD613B49C7F00521928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB087CD413B49C7F00521928 /* InfoPlist.strings */; };
+		AB087CD913B49C7F00521928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB087CD813B49C7F00521928 /* main.m */; };
+		AB087CDC13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB087CDB13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m */; };
+		AB087CDF13B49C7F00521928 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB087CDD13B49C7F00521928 /* MainWindow.xib */; };
+		AB087CE213B49C7F00521928 /* MKTickerViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB087CE113B49C7F00521928 /* MKTickerViewDemoViewController.m */; };
+		AB087CE513B49C7F00521928 /* MKTickerViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB087CE313B49C7F00521928 /* MKTickerViewDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB087CC713B49C7F00521928 /* MKTickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKTickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB087CCB13B49C7F00521928 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB087CCD13B49C7F00521928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB087CCF13B49C7F00521928 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB087CD313B49C7F00521928 /* MKTickerViewDemo-Info.plist */ = {isa = PBXFileReference; path = "MKTickerViewDemo-Info.plist"; sourceTree = "<group>"; };
+		AB087CD513B49C7F00521928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB087CD713B49C7F00521928 /* MKTickerViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MKTickerViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB087CD813B49C7F00521928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB087CDA13B49C7F00521928 /* MKTickerViewDemoAppDelegate.h */ = {isa = PBXFileReference; path = MKTickerViewDemoAppDelegate.h; sourceTree = "<group>"; };
+		AB087CDB13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTickerViewDemoAppDelegate.m; sourceTree = "<group>"; };
+		AB087CDE13B49C7F00521928 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB087CE013B49C7F00521928 /* MKTickerViewDemoViewController.h */ = {isa = PBXFileReference; path = MKTickerViewDemoViewController.h; sourceTree = "<group>"; };
+		AB087CE113B49C7F00521928 /* MKTickerViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTickerViewDemoViewController.m; sourceTree = "<group>"; };
+		AB087CE413B49C7F00521928 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKTickerViewDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB087CC413B49C7F00521928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB087CCC13B49C7F00521928 /* UIKit.framework in Frameworks */,
+				AB087CCE13B49C7F00521928 /* Foundation.framework in Frameworks */,
+				AB087CD013B49C7F00521928 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB087CBC13B49C7F00521928 = {
+			isa = PBXGroup;
+			children = (
+				AB087CD113B49C7F00521928 /* MKTickerViewDemo */,
+				AB087CCA13B49C7F00521928 /* Frameworks */,
+				AB087CC813B49C7F00521928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB087CC813B49C7F00521928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB087CC713B49C7F00521928 /* MKTickerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB087CCA13B49C7F00521928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB087CCB13B49C7F00521928 /* UIKit.framework */,
+				AB087CCD13B49C7F00521928 /* Foundation.framework */,
+				AB087CCF13B49C7F00521928 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB087CD113B49C7F00521928 /* MKTickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB087CDA13B49C7F00521928 /* MKTickerViewDemoAppDelegate.h */,
+				AB087CDB13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m */,
+				AB087CDD13B49C7F00521928 /* MainWindow.xib */,
+				AB087CE013B49C7F00521928 /* MKTickerViewDemoViewController.h */,
+				AB087CE113B49C7F00521928 /* MKTickerViewDemoViewController.m */,
+				AB087CE313B49C7F00521928 /* MKTickerViewDemoViewController.xib */,
+				AB087CD213B49C7F00521928 /* Supporting Files */,
+			);
+			path = MKTickerViewDemo;
+			sourceTree = "<group>";
+		};
+		AB087CD213B49C7F00521928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB087CD313B49C7F00521928 /* MKTickerViewDemo-Info.plist */,
+				AB087CD413B49C7F00521928 /* InfoPlist.strings */,
+				AB087CD713B49C7F00521928 /* MKTickerViewDemo-Prefix.pch */,
+				AB087CD813B49C7F00521928 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB087CC613B49C7F00521928 /* MKTickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB087CE813B49C7F00521928 /* Build configuration list for PBXNativeTarget "MKTickerViewDemo" */;
+			buildPhases = (
+				AB087CC313B49C7F00521928 /* Sources */,
+				AB087CC413B49C7F00521928 /* Frameworks */,
+				AB087CC513B49C7F00521928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKTickerViewDemo;
+			productName = MKTickerViewDemo;
+			productReference = AB087CC713B49C7F00521928 /* MKTickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB087CBE13B49C7F00521928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Steinlogic;
+			};
+			buildConfigurationList = AB087CC113B49C7F00521928 /* Build configuration list for PBXProject "MKTickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB087CBC13B49C7F00521928;
+			productRefGroup = AB087CC813B49C7F00521928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB087CC613B49C7F00521928 /* MKTickerViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB087CC513B49C7F00521928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB087CD613B49C7F00521928 /* InfoPlist.strings in Resources */,
+				AB087CDF13B49C7F00521928 /* MainWindow.xib in Resources */,
+				AB087CE513B49C7F00521928 /* MKTickerViewDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB087CC313B49C7F00521928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB087CD913B49C7F00521928 /* main.m in Sources */,
+				AB087CDC13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m in Sources */,
+				AB087CE213B49C7F00521928 /* MKTickerViewDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB087CD413B49C7F00521928 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB087CD513B49C7F00521928 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB087CDD13B49C7F00521928 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB087CDE13B49C7F00521928 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB087CE313B49C7F00521928 /* MKTickerViewDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB087CE413B49C7F00521928 /* en */,
+			);
+			name = MKTickerViewDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB087CE613B49C7F00521928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AB087CE713B49C7F00521928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		AB087CE913B49C7F00521928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKTickerViewDemo/MKTickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKTickerViewDemo/MKTickerViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB087CEA13B49C7F00521928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKTickerViewDemo/MKTickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKTickerViewDemo/MKTickerViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB087CC113B49C7F00521928 /* Build configuration list for PBXProject "MKTickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB087CE613B49C7F00521928 /* Debug */,
+				AB087CE713B49C7F00521928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB087CE813B49C7F00521928 /* Build configuration list for PBXNativeTarget "MKTickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB087CE913B49C7F00521928 /* Debug */,
+				AB087CEA13B49C7F00521928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB087CBE13B49C7F00521928 /* Project object */;
+}
