@@ -16,6 +16,10 @@
 		AB087CDF13B49C7F00521928 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB087CDD13B49C7F00521928 /* MainWindow.xib */; };
 		AB087CE213B49C7F00521928 /* MKTickerViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB087CE113B49C7F00521928 /* MKTickerViewDemoViewController.m */; };
 		AB087CE513B49C7F00521928 /* MKTickerViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB087CE313B49C7F00521928 /* MKTickerViewDemoViewController.xib */; };
+		ABA59E9013BAACA300CCF1E2 /* greenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA59E8C13BAACA300CCF1E2 /* greenArrow.png */; };
+		ABA59E9113BAACA300CCF1E2 /* MKTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA59E8E13BAACA300CCF1E2 /* MKTickerView.m */; };
+		ABA59E9213BAACA300CCF1E2 /* redArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA59E8F13BAACA300CCF1E2 /* redArrow.png */; };
+		ABA59E9513BAACBA00CCF1E2 /* tickerdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA59E9413BAACBA00CCF1E2 /* tickerdata.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,21 @@
 		AB087CCB13B49C7F00521928 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB087CCD13B49C7F00521928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB087CCF13B49C7F00521928 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB087CD313B49C7F00521928 /* MKTickerViewDemo-Info.plist */ = {isa = PBXFileReference; path = "MKTickerViewDemo-Info.plist"; sourceTree = "<group>"; };
+		AB087CD313B49C7F00521928 /* MKTickerViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKTickerViewDemo-Info.plist"; sourceTree = "<group>"; };
 		AB087CD513B49C7F00521928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB087CD713B49C7F00521928 /* MKTickerViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MKTickerViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB087CD713B49C7F00521928 /* MKTickerViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKTickerViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		AB087CD813B49C7F00521928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB087CDA13B49C7F00521928 /* MKTickerViewDemoAppDelegate.h */ = {isa = PBXFileReference; path = MKTickerViewDemoAppDelegate.h; sourceTree = "<group>"; };
+		AB087CDA13B49C7F00521928 /* MKTickerViewDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTickerViewDemoAppDelegate.h; sourceTree = "<group>"; };
 		AB087CDB13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTickerViewDemoAppDelegate.m; sourceTree = "<group>"; };
 		AB087CDE13B49C7F00521928 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		AB087CE013B49C7F00521928 /* MKTickerViewDemoViewController.h */ = {isa = PBXFileReference; path = MKTickerViewDemoViewController.h; sourceTree = "<group>"; };
+		AB087CE013B49C7F00521928 /* MKTickerViewDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTickerViewDemoViewController.h; sourceTree = "<group>"; };
 		AB087CE113B49C7F00521928 /* MKTickerViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTickerViewDemoViewController.m; sourceTree = "<group>"; };
 		AB087CE413B49C7F00521928 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKTickerViewDemoViewController.xib; sourceTree = "<group>"; };
+		ABA59E8C13BAACA300CCF1E2 /* greenArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenArrow.png; sourceTree = "<group>"; };
+		ABA59E8D13BAACA300CCF1E2 /* MKTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTickerView.h; sourceTree = "<group>"; };
+		ABA59E8E13BAACA300CCF1E2 /* MKTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTickerView.m; sourceTree = "<group>"; };
+		ABA59E8F13BAACA300CCF1E2 /* redArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redArrow.png; sourceTree = "<group>"; };
+		ABA59E9413BAACBA00CCF1E2 /* tickerdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tickerdata.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,7 @@
 		AB087CBC13B49C7F00521928 = {
 			isa = PBXGroup;
 			children = (
+				ABA59E8B13BAACA300CCF1E2 /* MKTickerView */,
 				AB087CD113B49C7F00521928 /* MKTickerViewDemo */,
 				AB087CCA13B49C7F00521928 /* Frameworks */,
 				AB087CC813B49C7F00521928 /* Products */,
@@ -79,6 +89,7 @@
 		AB087CD113B49C7F00521928 /* MKTickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ABA59E9413BAACBA00CCF1E2 /* tickerdata.plist */,
 				AB087CDA13B49C7F00521928 /* MKTickerViewDemoAppDelegate.h */,
 				AB087CDB13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m */,
 				AB087CDD13B49C7F00521928 /* MainWindow.xib */,
@@ -99,6 +110,17 @@
 				AB087CD813B49C7F00521928 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA59E8B13BAACA300CCF1E2 /* MKTickerView */ = {
+			isa = PBXGroup;
+			children = (
+				ABA59E8C13BAACA300CCF1E2 /* greenArrow.png */,
+				ABA59E8D13BAACA300CCF1E2 /* MKTickerView.h */,
+				ABA59E8E13BAACA300CCF1E2 /* MKTickerView.m */,
+				ABA59E8F13BAACA300CCF1E2 /* redArrow.png */,
+			);
+			path = MKTickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +176,9 @@
 				AB087CD613B49C7F00521928 /* InfoPlist.strings in Resources */,
 				AB087CDF13B49C7F00521928 /* MainWindow.xib in Resources */,
 				AB087CE513B49C7F00521928 /* MKTickerViewDemoViewController.xib in Resources */,
+				ABA59E9013BAACA300CCF1E2 /* greenArrow.png in Resources */,
+				ABA59E9213BAACA300CCF1E2 /* redArrow.png in Resources */,
+				ABA59E9513BAACBA00CCF1E2 /* tickerdata.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +192,7 @@
 				AB087CD913B49C7F00521928 /* main.m in Sources */,
 				AB087CDC13B49C7F00521928 /* MKTickerViewDemoAppDelegate.m in Sources */,
 				AB087CE213B49C7F00521928 /* MKTickerViewDemoViewController.m in Sources */,
+				ABA59E9113BAACA300CCF1E2 /* MKTickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +307,7 @@
 				AB087CEA13B49C7F00521928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

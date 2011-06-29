@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Nasdaq</string>
+		<key>Positive</key>
+		<false/>
+		<key>Value</key>
+		<string>2,618 -0.28%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dow</string>
+		<key>Positive</key>
+		<true/>
+		<key>Value</key>
+		<string>12,0040 +0.36%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MSFT</string>
+		<key>Positive</key>
+		<true/>
+		<key>Value</key>
+		<string>24.50 +0.30%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>GOOG</string>
+		<key>Positive</key>
+		<true/>
+		<key>Value</key>
+		<string>584.23 +0.28%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>IBM</string>
+		<key>Positive</key>
+		<true/>
+		<key>Value</key>
+		<string>170.30 +2.39%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>AAPL</string>
+		<key>Positive</key>
+		<false/>
+		<key>Value</key>
+		<string>336 -2.54%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>GOOG</string>
+		<key>Positive</key>
+		<false/>
+		<key>Value</key>
+		<string>592.23 -1.37%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>CSCO</string>
+		<key>Positive</key>
+		<false/>
+		<key>Value</key>
+		<string>15.23 -1.37%</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>INTC</string>
+		<key>Positive</key>
+		<false/>
+		<key>Value</key>
+		<string>21.49 -1.37%</string>
+	</dict>
+</array>
+</plist>

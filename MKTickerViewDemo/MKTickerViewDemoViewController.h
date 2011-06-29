@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MKTickerView.h"
 
 @interface MKTickerViewDemoViewController : UIViewController {
     
 }
+
+@property (nonatomic, retain) IBOutlet MKTickerView *tickerView;
+@property (nonatomic, retain) NSArray *tickerItems;
 
 @end
