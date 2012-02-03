@@ -198,8 +198,10 @@ static UIFont *valueFont = nil;
    
 -(void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
 {
-  self.contentOffset = CGPointMake(0, 0);
-  [self startAnimation];
+  if ([finished boolValue]) {
+  	self.contentOffset = CGPointMake(0, 0);
+  	[self startAnimation];
+  }
 }
 
 - (void)dealloc
